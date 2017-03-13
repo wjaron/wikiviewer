@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click for random article</a>
+<br>
+<input type="text" id="searchbox">
+<br>
+<input type="submit" value="Search" id="searchbutton">
+<br>
+<div id="searchresults" class="container-fluid"></div>
+</div>
+</body>
+<footer>
+    The intention of this exercise was to use Wiki api, not the look, that's why I skipped styling and focused on the goals of the exercise.
+    <b>User Story: I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.</b>
+    In search box there are no links provided as it was not necessary. In order to do that I would have to use generator instead of list in API call.
+
+    Github link: <a href="https://github.com/wjaron/wikiviewer" target="_blank">click</a>.
+
+    Copyright: WJ.
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+</footer>
+</html>

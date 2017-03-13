@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+.container {
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    text-align: center;
+}
+#searchresults {
+    text-align: left;
+    background-color: white;
+}
+.title {
+    font-weight:bold;
+}
+footer {
+    margin-top:100px;
+    background-color: white;
+}
+
